@@ -1,0 +1,432 @@
+Namespace(n=20, m=32, test_m=2000, f=0, T=100, heterogeneity='dirichlet_mnist', alpha=0.5, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=32, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 32, 'test_m': 2000, 'f': 0, 'T': 100, 'heterogeneity': 'dirichlet_mnist', 'alpha': 0.5, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 32, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/auto_ALIE/dirichlet_mnist/n_20_m_32_f_0_T_100_runs_5_alpha_0.5
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [40.75295925140381, 40.57176327705383, 40.55378603935242, 40.541069746017456, 40.53246521949768]
+results [[[73.7 ]
+  [84.75]
+  [87.7 ]
+  [88.7 ]
+  [87.95]
+  [83.3 ]]
+
+ [[77.7 ]
+  [81.85]
+  [84.15]
+  [85.25]
+  [85.45]
+  [36.9 ]]
+
+ [[68.1 ]
+  [76.65]
+  [76.65]
+  [62.8 ]
+  [56.1 ]
+  [84.65]]
+
+ [[71.35]
+  [81.2 ]
+  [82.65]
+  [72.85]
+  [86.55]
+  [84.45]]
+
+ [[70.2 ]
+  [77.35]
+  [71.85]
+  [82.85]
+  [58.75]
+  [83.35]]]
+Average accuracies for last run  [70.2  77.35 71.85 82.85 58.75 83.35]
+f1 score for last run  [[1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]]
+Average accuracies  [72.21 80.36 80.6  78.49 74.96 74.53]
+F1 score [1. 1. 1. 1. 1. 1.]
+Namespace(n=20, m=32, test_m=2000, f=3, T=100, heterogeneity='dirichlet_mnist', alpha=0.5, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=32, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 32, 'test_m': 2000, 'f': 3, 'T': 100, 'heterogeneity': 'dirichlet_mnist', 'alpha': 0.5, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 32, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/auto_ALIE/dirichlet_mnist/n_20_m_32_f_3_T_100_runs_5_alpha_0.5
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [128.43864798545837, 125.04826331138611, 124.97813272476196, 125.01416826248169, 125.12948274612427]
+results [[[73.75]
+  [82.55]
+  [86.1 ]
+  [89.45]
+  [74.1 ]
+  [62.25]]
+
+ [[72.85]
+  [76.9 ]
+  [66.8 ]
+  [81.85]
+  [84.45]
+  [49.8 ]]
+
+ [[71.1 ]
+  [75.65]
+  [85.95]
+  [80.1 ]
+  [40.75]
+  [49.65]]
+
+ [[78.4 ]
+  [83.85]
+  [84.3 ]
+  [76.15]
+  [78.4 ]
+  [36.8 ]]
+
+ [[74.3 ]
+  [78.5 ]
+  [73.55]
+  [77.6 ]
+  [48.4 ]
+  [64.6 ]]]
+Average accuracies for last run  [74.3  78.5  73.55 77.6  48.4  64.6 ]
+f1 score for last run  [[1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]]
+Average accuracies  [74.08 79.49 79.34 81.03 65.22 52.62]
+F1 score [1. 1. 1. 1. 1. 1.]
+Namespace(n=20, m=32, test_m=2000, f=6, T=100, heterogeneity='dirichlet_mnist', alpha=0.5, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=32, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 32, 'test_m': 2000, 'f': 6, 'T': 100, 'heterogeneity': 'dirichlet_mnist', 'alpha': 0.5, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 32, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/auto_ALIE/dirichlet_mnist/n_20_m_32_f_6_T_100_runs_5_alpha_0.5
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [111.2621238231659, 110.48043322563171, 110.55658721923828, 110.65961360931396, 111.72913551330566]
+results [[[73.7 ]
+  [80.15]
+  [81.7 ]
+  [72.4 ]
+  [75.9 ]
+  [29.1 ]]
+
+ [[69.  ]
+  [74.  ]
+  [75.05]
+  [76.5 ]
+  [75.85]
+  [29.5 ]]
+
+ [[72.2 ]
+  [75.2 ]
+  [75.65]
+  [75.6 ]
+  [56.95]
+  [31.6 ]]
+
+ [[77.95]
+  [82.9 ]
+  [84.35]
+  [83.4 ]
+  [76.1 ]
+  [23.4 ]]
+
+ [[73.55]
+  [80.4 ]
+  [83.65]
+  [83.7 ]
+  [79.4 ]
+  [31.7 ]]]
+Average accuracies for last run  [73.55 80.4  83.65 83.7  79.4  31.7 ]
+f1 score for last run  [[1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]]
+Average accuracies  [73.28 78.53 80.08 78.32 72.84 29.06]
+F1 score [1. 1. 1. 1. 1. 1.]
+Namespace(n=20, m=32, test_m=2000, f=9, T=100, heterogeneity='dirichlet_mnist', alpha=0.5, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=32, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 32, 'test_m': 2000, 'f': 9, 'T': 100, 'heterogeneity': 'dirichlet_mnist', 'alpha': 0.5, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 32, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/auto_ALIE/dirichlet_mnist/n_20_m_32_f_9_T_100_runs_5_alpha_0.5
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [98.18557286262512, 97.44003415107727, 97.40341019630432, 97.39753150939941, 97.37799787521362]
+results [[[73.75]
+  [76.55]
+  [77.3 ]
+  [71.  ]
+  [62.05]
+  [14.35]]
+
+ [[72.3 ]
+  [74.1 ]
+  [74.8 ]
+  [62.65]
+  [55.55]
+  [12.1 ]]
+
+ [[72.65]
+  [73.95]
+  [73.1 ]
+  [63.55]
+  [55.2 ]
+  [ 2.35]]
+
+ [[69.9 ]
+  [70.3 ]
+  [69.65]
+  [62.5 ]
+  [58.15]
+  [ 2.55]]
+
+ [[71.6 ]
+  [74.55]
+  [76.7 ]
+  [63.25]
+  [55.35]
+  [24.  ]]]
+Average accuracies for last run  [71.6  74.55 76.7  63.25 55.35 24.  ]
+f1 score for last run  [[1.        ]
+ [1.        ]
+ [1.        ]
+ [1.        ]
+ [0.        ]
+ [0.99999998]]
+Average accuracies  [72.04 73.89 74.31 64.59 57.26 11.07]
+F1 score [1.  1.  1.  0.4 0.  0.2]
+Namespace(n=20, m=64, test_m=2000, f=0, T=100, heterogeneity='dirichlet_mnist', alpha=0.5, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=64, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 64, 'test_m': 2000, 'f': 0, 'T': 100, 'heterogeneity': 'dirichlet_mnist', 'alpha': 0.5, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 64, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/auto_ALIE/dirichlet_mnist/n_20_m_64_f_0_T_100_runs_5_alpha_0.5
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [50.107717752456665, 49.99508810043335, 50.03601884841919, 50.01126408576965, 50.05483651161194]
+results [[[75.95]
+  [81.6 ]
+  [73.7 ]
+  [86.95]
+  [83.7 ]
+  [30.4 ]]
+
+ [[75.3 ]
+  [76.85]
+  [79.8 ]
+  [58.65]
+  [82.  ]
+  [80.5 ]]
+
+ [[73.95]
+  [79.75]
+  [82.55]
+  [80.7 ]
+  [84.75]
+  [79.9 ]]
+
+ [[83.05]
+  [85.7 ]
+  [84.6 ]
+  [80.75]
+  [88.15]
+  [85.15]]
+
+ [[70.45]
+  [87.55]
+  [88.75]
+  [78.35]
+  [87.35]
+  [82.5 ]]]
+Average accuracies for last run  [70.45 87.55 88.75 78.35 87.35 82.5 ]
+f1 score for last run  [[1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]]
+Average accuracies  [75.74 82.29 81.88 77.08 85.19 71.69]
+F1 score [1. 1. 1. 1. 1. 1.]
+Namespace(n=20, m=64, test_m=2000, f=3, T=100, heterogeneity='dirichlet_mnist', alpha=0.5, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=64, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 64, 'test_m': 2000, 'f': 3, 'T': 100, 'heterogeneity': 'dirichlet_mnist', 'alpha': 0.5, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 64, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/auto_ALIE/dirichlet_mnist/n_20_m_64_f_3_T_100_runs_5_alpha_0.5
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [134.30910396575928, 134.3290877342224, 134.16452646255493, 134.2091212272644, 134.36151123046875]
+results [[[73.1 ]
+  [79.4 ]
+  [85.8 ]
+  [51.3 ]
+  [60.4 ]
+  [75.95]]
+
+ [[80.75]
+  [47.4 ]
+  [81.45]
+  [86.75]
+  [86.45]
+  [72.15]]
+
+ [[76.25]
+  [81.5 ]
+  [83.65]
+  [84.15]
+  [84.45]
+  [63.4 ]]
+
+ [[82.55]
+  [87.8 ]
+  [84.45]
+  [77.2 ]
+  [70.8 ]
+  [77.25]]
+
+ [[75.45]
+  [80.45]
+  [74.05]
+  [80.8 ]
+  [81.15]
+  [43.25]]]
+Average accuracies for last run  [75.45 80.45 74.05 80.8  81.15 43.25]
+f1 score for last run  [[1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]]
+Average accuracies  [77.62 75.31 81.88 76.04 76.65 66.4 ]
+F1 score [1. 1. 1. 1. 1. 1.]
+Namespace(n=20, m=64, test_m=2000, f=6, T=100, heterogeneity='dirichlet_mnist', alpha=0.5, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=64, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 64, 'test_m': 2000, 'f': 6, 'T': 100, 'heterogeneity': 'dirichlet_mnist', 'alpha': 0.5, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 64, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/auto_ALIE/dirichlet_mnist/n_20_m_64_f_6_T_100_runs_5_alpha_0.5
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [118.84359622001648, 118.58256101608276, 118.73193502426147, 118.61112713813782, 118.66633868217468]
+results [[[75.7 ]
+  [83.3 ]
+  [78.55]
+  [80.75]
+  [84.05]
+  [32.7 ]]
+
+ [[77.75]
+  [83.15]
+  [73.2 ]
+  [84.  ]
+  [76.55]
+  [41.4 ]]
+
+ [[80.95]
+  [82.25]
+  [82.95]
+  [81.55]
+  [27.  ]
+  [32.3 ]]
+
+ [[78.1 ]
+  [78.45]
+  [78.4 ]
+  [80.8 ]
+  [71.5 ]
+  [67.15]]
+
+ [[76.7 ]
+  [81.4 ]
+  [81.45]
+  [79.75]
+  [81.75]
+  [58.85]]]
+Average accuracies for last run  [76.7  81.4  81.45 79.75 81.75 58.85]
+f1 score for last run  [[1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]]
+Average accuracies  [77.84 81.71 78.91 81.37 68.17 46.48]
+F1 score [1. 1. 1. 1. 1. 1.]
+Namespace(n=20, m=64, test_m=2000, f=9, T=100, heterogeneity='dirichlet_mnist', alpha=0.5, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=64, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 64, 'test_m': 2000, 'f': 9, 'T': 100, 'heterogeneity': 'dirichlet_mnist', 'alpha': 0.5, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 64, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/auto_ALIE/dirichlet_mnist/n_20_m_64_f_9_T_100_runs_5_alpha_0.5
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [103.31489109992981, 103.03275299072266, 103.04447221755981, 103.09679055213928, 103.0939109325409]
+results [[[73.05]
+  [70.05]
+  [72.85]
+  [67.9 ]
+  [58.85]
+  [ 3.85]]
+
+ [[75.4 ]
+  [76.  ]
+  [65.5 ]
+  [58.05]
+  [55.4 ]
+  [15.3 ]]
+
+ [[79.  ]
+  [83.1 ]
+  [55.05]
+  [70.3 ]
+  [62.55]
+  [16.35]]
+
+ [[78.15]
+  [76.95]
+  [76.8 ]
+  [71.6 ]
+  [59.6 ]
+  [ 2.45]]
+
+ [[81.6 ]
+  [68.55]
+  [75.45]
+  [64.85]
+  [56.  ]
+  [18.35]]]
+Average accuracies for last run  [81.6  68.55 75.45 64.85 56.   18.35]
+f1 score for last run  [[1.        ]
+ [1.        ]
+ [0.99999999]
+ [0.        ]
+ [0.        ]
+ [1.        ]]
+Average accuracies  [77.44 74.93 69.13 66.54 58.48 11.26]
+F1 score [0.99918367 1.         0.99999999 0.4        0.4        0.4       ]

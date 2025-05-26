@@ -1,0 +1,8 @@
+Namespace(n=20, m=64, test_m=2000, f=0, T=100, heterogeneity='dirichlet_mnist', alpha=0.5, attack='SF', agg='trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=32, nb_main_client=1, nb_classes=10, algo='IPGDW', eval_every=1, m_list='31,29,43,33,47,35,28,33,25,36,15,27,33,36,41,34,40,22,28,24')
+device: cuda
+{'n': 20, 'm': 64, 'test_m': 2000, 'f': 0, 'T': 100, 'heterogeneity': 'dirichlet_mnist', 'alpha': 0.5, 'attack': 'SF', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 32, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGDW'}
+Namespace(n=20, m=64, test_m=2000, f=0, T=100, heterogeneity='dirichlet_mnist', alpha=0.5, attack='SF', agg='trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=64, nb_main_client=1, nb_classes=10, algo='IPGDW', eval_every=1, m_list='31,29,43,33,47,35,28,33,25,36,15,27,33,36,41,34,40,22,28,24')
+device: cuda
+{'n': 20, 'm': 64, 'test_m': 2000, 'f': 0, 'T': 100, 'heterogeneity': 'dirichlet_mnist', 'alpha': 0.5, 'attack': 'SF', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 64, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGDW'}
+[31, 29, 43, 33, 47, 35, 28, 33, 25, 36, 15, 27, 33, 36, 41, 34, 40, 22, 28, 24] and sum is 640
+31,29,43,33,47,35,28,33,25,36,15,27,33,36,41,34,40,22,28,24

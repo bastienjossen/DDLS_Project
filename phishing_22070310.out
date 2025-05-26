@@ -1,0 +1,648 @@
+Namespace(n=20, m=16, test_m=512, f=9, T=500, heterogeneity='dirichlet_phishing', alpha=3.0, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='phishing', model='logistic_phishing', lr=0.1, batch_size=16, nb_main_client=1, nb_classes=2, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 16, 'test_m': 512, 'f': 9, 'T': 500, 'heterogeneity': 'dirichlet_phishing', 'alpha': 3.0, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'phishing', 'model': 'logistic_phishing', 'lr': 0.1, 'gamma': 0.2, 'nb_classes': 2, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 16, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/phishing/auto_ALIE/dirichlet_phishing/n_20_m_16_f_9_T_500_runs_5_alpha_3.0
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [65.61828756332397, 64.20898604393005, 64.53468370437622, 64.58080816268921, 64.63107347488403]
+results [[[85.15625  ]
+  [86.71875  ]
+  [88.28125  ]
+  [89.2578125]
+  [90.0390625]
+  [90.234375 ]]
+
+ [[83.0078125]
+  [85.546875 ]
+  [86.9140625]
+  [87.890625 ]
+  [89.453125 ]
+  [90.0390625]]
+
+ [[57.421875 ]
+  [58.59375  ]
+  [69.7265625]
+  [79.296875 ]
+  [84.9609375]
+  [88.0859375]]
+
+ [[77.34375  ]
+  [81.25     ]
+  [85.15625  ]
+  [86.1328125]
+  [87.6953125]
+  [88.4765625]]
+
+ [[60.7421875]
+  [71.2890625]
+  [82.03125  ]
+  [88.671875 ]
+  [91.015625 ]
+  [90.0390625]]]
+Average accuracies for last run  [60.7421875 71.2890625 82.03125   88.671875  91.015625  90.0390625]
+f1 score for last run  [[0.63783784]
+ [0.70658683]
+ [0.78703704]
+ [0.84974093]
+ [0.87830688]
+ [0.85386819]]
+Average accuracies  [72.734375  76.6796875 82.421875  86.25      88.6328125 89.375    ]
+F1 score [0.57471129 0.62855975 0.74596382 0.8129607  0.85336798 0.86334437]
+Namespace(n=20, m=16, test_m=512, f=6, T=500, heterogeneity='dirichlet_phishing', alpha=3.0, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='phishing', model='logistic_phishing', lr=0.1, batch_size=16, nb_main_client=1, nb_classes=2, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 16, 'test_m': 512, 'f': 6, 'T': 500, 'heterogeneity': 'dirichlet_phishing', 'alpha': 3.0, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'phishing', 'model': 'logistic_phishing', 'lr': 0.1, 'gamma': 0.2, 'nb_classes': 2, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 16, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/phishing/auto_ALIE/dirichlet_phishing/n_20_m_16_f_6_T_500_runs_5_alpha_3.0
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [68.73837208747864, 68.998459815979, 68.85090446472168, 68.78360724449158, 68.70330238342285]
+results [[[85.15625  ]
+  [87.5      ]
+  [89.0625   ]
+  [89.453125 ]
+  [88.8671875]
+  [86.328125 ]]
+
+ [[83.0078125]
+  [85.7421875]
+  [87.3046875]
+  [88.671875 ]
+  [90.4296875]
+  [91.40625  ]]
+
+ [[57.421875 ]
+  [59.5703125]
+  [73.4375   ]
+  [84.765625 ]
+  [87.6953125]
+  [88.671875 ]]
+
+ [[77.34375  ]
+  [82.421875 ]
+  [86.71875  ]
+  [87.5      ]
+  [89.84375  ]
+  [89.453125 ]]
+
+ [[60.7421875]
+  [70.703125 ]
+  [81.0546875]
+  [85.9375   ]
+  [89.6484375]
+  [90.8203125]]]
+Average accuracies for last run  [60.7421875 70.703125  81.0546875 85.9375    89.6484375 90.8203125]
+f1 score for last run  [[0.63783784]
+ [0.70238095]
+ [0.77904328]
+ [0.82524272]
+ [0.86233766]
+ [0.87399464]]
+Average accuracies  [72.734375  77.1875    83.515625  87.265625  89.296875  89.3359375]
+F1 score [0.57471129 0.64555046 0.77404481 0.84063827 0.86877102 0.87215948]
+Namespace(n=20, m=16, test_m=512, f=3, T=500, heterogeneity='dirichlet_phishing', alpha=3.0, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='phishing', model='logistic_phishing', lr=0.1, batch_size=16, nb_main_client=1, nb_classes=2, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 16, 'test_m': 512, 'f': 3, 'T': 500, 'heterogeneity': 'dirichlet_phishing', 'alpha': 3.0, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'phishing', 'model': 'logistic_phishing', 'lr': 0.1, 'gamma': 0.2, 'nb_classes': 2, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 16, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/phishing/auto_ALIE/dirichlet_phishing/n_20_m_16_f_3_T_500_runs_5_alpha_3.0
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [72.2346830368042, 71.99083733558655, 72.05491280555725, 71.92540073394775, 71.96300530433655]
+results [[[85.15625  ]
+  [88.0859375]
+  [88.8671875]
+  [88.4765625]
+  [87.890625 ]
+  [83.3984375]]
+
+ [[83.0078125]
+  [85.9375   ]
+  [87.109375 ]
+  [89.2578125]
+  [90.0390625]
+  [90.8203125]]
+
+ [[57.421875 ]
+  [61.71875  ]
+  [78.125    ]
+  [87.3046875]
+  [88.8671875]
+  [88.4765625]]
+
+ [[77.34375  ]
+  [83.3984375]
+  [86.328125 ]
+  [88.8671875]
+  [89.0625   ]
+  [86.9140625]]
+
+ [[60.7421875]
+  [67.578125 ]
+  [77.734375 ]
+  [82.6171875]
+  [87.6953125]
+  [89.0625   ]]]
+Average accuracies for last run  [60.7421875 67.578125  77.734375  82.6171875 87.6953125 89.0625   ]
+f1 score for last run  [[0.63783784]
+ [0.68199234]
+ [0.7605042 ]
+ [0.80089485]
+ [0.84892086]
+ [0.86206897]]
+Average accuracies  [72.734375  77.34375   83.6328125 87.3046875 88.7109375 87.734375 ]
+F1 score [0.57471129 0.66563385 0.79356734 0.84933945 0.86734857 0.86031708]
+Namespace(n=20, m=16, test_m=512, f=0, T=500, heterogeneity='dirichlet_phishing', alpha=3.0, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='phishing', model='logistic_phishing', lr=0.1, batch_size=16, nb_main_client=1, nb_classes=2, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 16, 'test_m': 512, 'f': 0, 'T': 500, 'heterogeneity': 'dirichlet_phishing', 'alpha': 3.0, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'phishing', 'model': 'logistic_phishing', 'lr': 0.1, 'gamma': 0.2, 'nb_classes': 2, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 16, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/phishing/auto_ALIE/dirichlet_phishing/n_20_m_16_f_0_T_500_runs_5_alpha_3.0
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [30.840856313705444, 30.673755407333374, 30.723602771759033, 30.597394943237305, 30.55095887184143]
+results [[[85.15625  ]
+  [87.890625 ]
+  [88.671875 ]
+  [89.2578125]
+  [90.0390625]
+  [89.2578125]]
+
+ [[83.0078125]
+  [86.1328125]
+  [87.5      ]
+  [89.2578125]
+  [90.234375 ]
+  [90.8203125]]
+
+ [[57.421875 ]
+  [64.453125 ]
+  [79.8828125]
+  [88.671875 ]
+  [90.234375 ]
+  [89.0625   ]]
+
+ [[77.34375  ]
+  [83.203125 ]
+  [86.1328125]
+  [88.4765625]
+  [90.234375 ]
+  [90.234375 ]]
+
+ [[60.7421875]
+  [69.7265625]
+  [81.25     ]
+  [86.71875  ]
+  [89.0625   ]
+  [90.4296875]]]
+Average accuracies for last run  [60.7421875 69.7265625 81.25      86.71875   89.0625    90.4296875]
+f1 score for last run  [[0.63783784]
+ [0.69667319]
+ [0.79039301]
+ [0.84037559]
+ [0.86206897]
+ [0.87531807]]
+Average accuracies  [72.734375  78.28125   84.6875    88.4765625 89.9609375 89.9609375]
+F1 score [0.57471129 0.68597794 0.80484961 0.86032581 0.88043899 0.8825514 ]
+Namespace(n=20, m=48, test_m=512, f=9, T=500, heterogeneity='dirichlet_phishing', alpha=3.0, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='phishing', model='logistic_phishing', lr=0.1, batch_size=48, nb_main_client=1, nb_classes=2, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 48, 'test_m': 512, 'f': 9, 'T': 500, 'heterogeneity': 'dirichlet_phishing', 'alpha': 3.0, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'phishing', 'model': 'logistic_phishing', 'lr': 0.1, 'gamma': 0.2, 'nb_classes': 2, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 48, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/phishing/auto_ALIE/dirichlet_phishing/n_20_m_48_f_9_T_500_runs_5_alpha_3.0
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [66.80547642707825, 66.82589340209961, 66.44491791725159, 66.56720924377441, 66.62994289398193]
+results [[[90.4296875]
+  [89.84375  ]
+  [89.84375  ]
+  [90.234375 ]
+  [90.4296875]
+  [90.234375 ]]
+
+ [[91.2109375]
+  [91.6015625]
+  [91.6015625]
+  [91.015625 ]
+  [91.40625  ]
+  [91.015625 ]]
+
+ [[72.0703125]
+  [76.7578125]
+  [81.25     ]
+  [83.7890625]
+  [86.9140625]
+  [89.453125 ]]
+
+ [[85.3515625]
+  [86.328125 ]
+  [86.71875  ]
+  [89.2578125]
+  [90.0390625]
+  [91.40625  ]]
+
+ [[88.0859375]
+  [88.4765625]
+  [89.2578125]
+  [89.84375  ]
+  [90.234375 ]
+  [91.015625 ]]]
+Average accuracies for last run  [88.0859375 88.4765625 89.2578125 89.84375   90.234375  91.015625 ]
+f1 score for last run  [[0.85230024]
+ [0.85574572]
+ [0.86352357]
+ [0.87064677]
+ [0.87562189]
+ [0.88265306]]
+Average accuracies  [85.4296875 86.6015625 87.734375  88.828125  89.8046875 90.625    ]
+F1 score [0.78625296 0.81360501 0.83772728 0.85716512 0.8732633  0.88437076]
+Namespace(n=20, m=48, test_m=512, f=6, T=500, heterogeneity='dirichlet_phishing', alpha=3.0, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='phishing', model='logistic_phishing', lr=0.1, batch_size=48, nb_main_client=1, nb_classes=2, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 48, 'test_m': 512, 'f': 6, 'T': 500, 'heterogeneity': 'dirichlet_phishing', 'alpha': 3.0, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'phishing', 'model': 'logistic_phishing', 'lr': 0.1, 'gamma': 0.2, 'nb_classes': 2, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 48, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/phishing/auto_ALIE/dirichlet_phishing/n_20_m_48_f_6_T_500_runs_5_alpha_3.0
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [72.39896821975708, 72.40215468406677, 72.3333489894867, 72.1811420917511, 72.20996952056885]
+results [[[90.4296875]
+  [90.4296875]
+  [90.0390625]
+  [90.4296875]
+  [90.8203125]
+  [91.40625  ]]
+
+ [[91.2109375]
+  [91.6015625]
+  [91.6015625]
+  [91.796875 ]
+  [91.40625  ]
+  [91.2109375]]
+
+ [[72.0703125]
+  [78.3203125]
+  [82.2265625]
+  [86.71875  ]
+  [88.4765625]
+  [91.015625 ]]
+
+ [[85.3515625]
+  [86.328125 ]
+  [88.8671875]
+  [89.84375  ]
+  [91.40625  ]
+  [92.578125 ]]
+
+ [[88.0859375]
+  [88.28125  ]
+  [89.2578125]
+  [89.84375  ]
+  [89.453125 ]
+  [89.84375  ]]]
+Average accuracies for last run  [88.0859375 88.28125   89.2578125 89.84375   89.453125  89.84375  ]
+f1 score for last run  [[0.85230024]
+ [0.85365854]
+ [0.86618005]
+ [0.87254902]
+ [0.86829268]
+ [0.87254902]]
+Average accuracies  [85.4296875 86.9921875 88.3984375 89.7265625 90.3125    91.2109375]
+F1 score [0.78625296 0.82402132 0.85071274 0.87286467 0.88159105 0.89409269]
+Namespace(n=20, m=48, test_m=512, f=3, T=500, heterogeneity='dirichlet_phishing', alpha=3.0, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='phishing', model='logistic_phishing', lr=0.1, batch_size=48, nb_main_client=1, nb_classes=2, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 48, 'test_m': 512, 'f': 3, 'T': 500, 'heterogeneity': 'dirichlet_phishing', 'alpha': 3.0, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'phishing', 'model': 'logistic_phishing', 'lr': 0.1, 'gamma': 0.2, 'nb_classes': 2, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 48, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/phishing/auto_ALIE/dirichlet_phishing/n_20_m_48_f_3_T_500_runs_5_alpha_3.0
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [77.49618864059448, 77.60230875015259, 77.49251079559326, 77.31709384918213, 77.28012490272522]
+results [[[90.4296875]
+  [89.6484375]
+  [90.0390625]
+  [90.4296875]
+  [91.2109375]
+  [90.0390625]]
+
+ [[91.2109375]
+  [91.9921875]
+  [91.796875 ]
+  [91.6015625]
+  [91.40625  ]
+  [91.6015625]]
+
+ [[72.0703125]
+  [79.6875   ]
+  [84.9609375]
+  [87.5      ]
+  [91.2109375]
+  [90.625    ]]
+
+ [[85.3515625]
+  [86.5234375]
+  [88.671875 ]
+  [88.28125  ]
+  [90.234375 ]
+  [90.0390625]]
+
+ [[88.0859375]
+  [88.28125  ]
+  [88.671875 ]
+  [88.8671875]
+  [88.8671875]
+  [88.8671875]]]
+Average accuracies for last run  [88.0859375 88.28125   88.671875  88.8671875 88.8671875 88.8671875]
+f1 score for last run  [[0.85230024]
+ [0.85507246]
+ [0.86057692]
+ [0.8626506 ]
+ [0.8626506 ]
+ [0.8626506 ]]
+Average accuracies  [85.4296875 87.2265625 88.828125  89.3359375 90.5859375 90.234375 ]
+F1 score [0.78625296 0.8305956  0.86105365 0.87116098 0.88875249 0.88628585]
+Namespace(n=20, m=48, test_m=512, f=0, T=500, heterogeneity='dirichlet_phishing', alpha=3.0, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='phishing', model='logistic_phishing', lr=0.1, batch_size=48, nb_main_client=1, nb_classes=2, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 48, 'test_m': 512, 'f': 0, 'T': 500, 'heterogeneity': 'dirichlet_phishing', 'alpha': 3.0, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'phishing', 'model': 'logistic_phishing', 'lr': 0.1, 'gamma': 0.2, 'nb_classes': 2, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 48, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/phishing/auto_ALIE/dirichlet_phishing/n_20_m_48_f_0_T_500_runs_5_alpha_3.0
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [36.29128432273865, 36.27504205703735, 36.20309543609619, 36.32343029975891, 36.334471702575684]
+results [[[90.4296875]
+  [89.84375  ]
+  [90.4296875]
+  [90.4296875]
+  [91.40625  ]
+  [90.8203125]]
+
+ [[91.2109375]
+  [91.9921875]
+  [91.796875 ]
+  [91.6015625]
+  [91.9921875]
+  [91.796875 ]]
+
+ [[72.0703125]
+  [79.4921875]
+  [84.9609375]
+  [89.2578125]
+  [90.8203125]
+  [90.0390625]]
+
+ [[85.3515625]
+  [85.9375   ]
+  [88.671875 ]
+  [89.2578125]
+  [90.4296875]
+  [90.625    ]]
+
+ [[88.0859375]
+  [88.671875 ]
+  [89.0625   ]
+  [89.453125 ]
+  [89.84375  ]
+  [89.453125 ]]]
+Average accuracies for last run  [88.0859375 88.671875  89.0625    89.453125  89.84375   89.453125 ]
+f1 score for last run  [[0.85230024]
+ [0.8592233 ]
+ [0.86407767]
+ [0.86893204]
+ [0.87317073]
+ [0.86893204]]
+Average accuracies  [85.4296875 87.1875    88.984375  90.        90.8984375 90.546875 ]
+F1 score [0.78625296 0.82941195 0.86247589 0.87962637 0.89246472 0.88957745]
+Namespace(n=20, m=128, test_m=512, f=9, T=500, heterogeneity='dirichlet_phishing', alpha=3.0, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='phishing', model='logistic_phishing', lr=0.1, batch_size=128, nb_main_client=1, nb_classes=2, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 128, 'test_m': 512, 'f': 9, 'T': 500, 'heterogeneity': 'dirichlet_phishing', 'alpha': 3.0, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'phishing', 'model': 'logistic_phishing', 'lr': 0.1, 'gamma': 0.2, 'nb_classes': 2, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 128, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/phishing/auto_ALIE/dirichlet_phishing/n_20_m_128_f_9_T_500_runs_5_alpha_3.0
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [75.34901785850525, 75.24735450744629, 75.28934502601624, 75.30159521102905, 75.07910633087158]
+results [[[91.015625 ]
+  [91.2109375]
+  [91.40625  ]
+  [91.2109375]
+  [91.796875 ]
+  [91.6015625]]
+
+ [[90.8203125]
+  [91.2109375]
+  [91.9921875]
+  [92.1875   ]
+  [91.9921875]
+  [91.796875 ]]
+
+ [[80.2734375]
+  [81.640625 ]
+  [84.9609375]
+  [86.5234375]
+  [88.671875 ]
+  [90.4296875]]
+
+ [[88.4765625]
+  [89.0625   ]
+  [90.8203125]
+  [91.6015625]
+  [92.3828125]
+  [92.7734375]]
+
+ [[92.1875   ]
+  [92.3828125]
+  [92.3828125]
+  [91.796875 ]
+  [92.578125 ]
+  [92.578125 ]]]
+Average accuracies for last run  [92.1875    92.3828125 92.3828125 91.796875  92.578125  92.578125 ]
+f1 score for last run  [[0.89690722]
+ [0.89974293]
+ [0.90025575]
+ [0.89230769]
+ [0.9015544 ]
+ [0.9015544 ]]
+Average accuracies  [88.5546875 89.1015625 90.3125    90.6640625 91.484375  91.8359375]
+F1 score [0.84479665 0.85649821 0.87611441 0.88268302 0.89429173 0.90040363]
+Namespace(n=20, m=128, test_m=512, f=6, T=500, heterogeneity='dirichlet_phishing', alpha=3.0, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='phishing', model='logistic_phishing', lr=0.1, batch_size=128, nb_main_client=1, nb_classes=2, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 128, 'test_m': 512, 'f': 6, 'T': 500, 'heterogeneity': 'dirichlet_phishing', 'alpha': 3.0, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'phishing', 'model': 'logistic_phishing', 'lr': 0.1, 'gamma': 0.2, 'nb_classes': 2, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 128, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/phishing/auto_ALIE/dirichlet_phishing/n_20_m_128_f_6_T_500_runs_5_alpha_3.0
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [82.2329478263855, 82.21231842041016, 82.14623188972473, 82.13941836357117, 82.14452123641968]
+results [[[91.015625 ]
+  [91.015625 ]
+  [91.796875 ]
+  [91.796875 ]
+  [91.9921875]
+  [91.6015625]]
+
+ [[90.8203125]
+  [91.796875 ]
+  [92.3828125]
+  [91.9921875]
+  [92.7734375]
+  [92.96875  ]]
+
+ [[80.2734375]
+  [83.0078125]
+  [86.9140625]
+  [89.453125 ]
+  [90.4296875]
+  [90.234375 ]]
+
+ [[88.4765625]
+  [89.6484375]
+  [90.4296875]
+  [91.6015625]
+  [91.9921875]
+  [92.1875   ]]
+
+ [[92.1875   ]
+  [92.3828125]
+  [91.796875 ]
+  [91.6015625]
+  [91.9921875]
+  [91.9921875]]]
+Average accuracies for last run  [92.1875    92.3828125 91.796875  91.6015625 91.9921875 91.9921875]
+f1 score for last run  [[0.89690722]
+ [0.89974293]
+ [0.89340102]
+ [0.89223058]
+ [0.89724311]
+ [0.89775561]]
+Average accuracies  [88.5546875 89.5703125 90.6640625 91.2890625 91.8359375 91.796875 ]
+F1 score [0.84479665 0.86458572 0.88347527 0.89332308 0.90166902 0.9025733 ]
+Namespace(n=20, m=128, test_m=512, f=3, T=500, heterogeneity='dirichlet_phishing', alpha=3.0, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='phishing', model='logistic_phishing', lr=0.1, batch_size=128, nb_main_client=1, nb_classes=2, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 128, 'test_m': 512, 'f': 3, 'T': 500, 'heterogeneity': 'dirichlet_phishing', 'alpha': 3.0, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'phishing', 'model': 'logistic_phishing', 'lr': 0.1, 'gamma': 0.2, 'nb_classes': 2, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 128, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/phishing/auto_ALIE/dirichlet_phishing/n_20_m_128_f_3_T_500_runs_5_alpha_3.0
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [89.11195397377014, 89.68402528762817, 88.88334822654724, 88.89279007911682, 88.92979192733765]
+results [[[91.015625 ]
+  [91.796875 ]
+  [91.796875 ]
+  [91.40625  ]
+  [91.2109375]
+  [90.625    ]]
+
+ [[90.8203125]
+  [91.9921875]
+  [91.9921875]
+  [92.7734375]
+  [92.578125 ]
+  [92.3828125]]
+
+ [[80.2734375]
+  [84.5703125]
+  [88.4765625]
+  [90.0390625]
+  [90.4296875]
+  [89.0625   ]]
+
+ [[88.4765625]
+  [90.4296875]
+  [91.9921875]
+  [91.9921875]
+  [91.796875 ]
+  [91.9921875]]
+
+ [[92.1875   ]
+  [91.40625  ]
+  [91.9921875]
+  [92.3828125]
+  [92.1875   ]
+  [91.796875 ]]]
+Average accuracies for last run  [92.1875    91.40625   91.9921875 92.3828125 92.1875    91.796875 ]
+f1 score for last run  [[0.89690722]
+ [0.88944724]
+ [0.89826303]
+ [0.9037037 ]
+ [0.90147783]
+ [0.89805825]]
+Average accuracies  [88.5546875 90.0390625 91.25      91.71875   91.640625  91.171875 ]
+F1 score [0.84479665 0.87297929 0.8928008  0.90054427 0.9015513  0.8978059 ]
+Namespace(n=20, m=128, test_m=512, f=0, T=500, heterogeneity='dirichlet_phishing', alpha=3.0, attack='auto_ALIE', agg='trmean', nb_run=5, dataset='phishing', model='logistic_phishing', lr=0.1, batch_size=128, nb_main_client=1, nb_classes=2, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 128, 'test_m': 512, 'f': 0, 'T': 500, 'heterogeneity': 'dirichlet_phishing', 'alpha': 3.0, 'attack': 'auto_ALIE', 'agg': 'trmean', 'nb_run': 5, 'dataset': 'phishing', 'model': 'logistic_phishing', 'lr': 0.1, 'gamma': 0.2, 'nb_classes': 2, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 128, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/phishing/auto_ALIE/dirichlet_phishing/n_20_m_128_f_0_T_500_runs_5_alpha_3.0
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [49.937257528305054, 49.74390959739685, 49.76443600654602, 49.77617430686951, 49.81634783744812]
+results [[[91.015625 ]
+  [91.6015625]
+  [91.9921875]
+  [91.796875 ]
+  [91.2109375]
+  [91.2109375]]
+
+ [[90.8203125]
+  [91.9921875]
+  [92.1875   ]
+  [92.7734375]
+  [92.578125 ]
+  [91.9921875]]
+
+ [[80.2734375]
+  [84.375    ]
+  [88.4765625]
+  [90.0390625]
+  [90.4296875]
+  [89.0625   ]]
+
+ [[88.4765625]
+  [90.234375 ]
+  [91.9921875]
+  [91.9921875]
+  [92.1875   ]
+  [92.1875   ]]
+
+ [[92.1875   ]
+  [91.6015625]
+  [91.9921875]
+  [92.1875   ]
+  [91.6015625]
+  [91.6015625]]]
+Average accuracies for last run  [92.1875    91.6015625 91.9921875 92.1875    91.6015625 91.6015625]
+f1 score for last run  [[0.89690722]
+ [0.89168766]
+ [0.89826303]
+ [0.90147783]
+ [0.89537713]
+ [0.89588378]]
+Average accuracies  [88.5546875 89.9609375 91.328125  91.7578125 91.6015625 91.2109375]
+F1 score [0.84479665 0.8719646  0.89365118 0.90093805 0.90111737 0.89827147]

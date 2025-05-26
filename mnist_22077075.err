@@ -1,0 +1,32 @@
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 134, in <module>
+[uncaught]     os.mkdir(dataset_folder)
+[uncaught] FileNotFoundError: [Errno 2] No such file or directory: './experiments_distribution/mnist'
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 87, in <module>
+[uncaught]     raise ValueError(
+[uncaught] ValueError: --m_list must contain exactly 17 integers (one per honest client)
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 87, in <module>
+[uncaught]     raise ValueError(
+[uncaught] ValueError: --m_list must contain exactly 14 integers (one per honest client)
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 87, in <module>
+[uncaught]     raise ValueError(
+[uncaught] ValueError: --m_list must contain exactly 11 integers (one per honest client)
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 134, in <module>
+[uncaught]     os.mkdir(dataset_folder)
+[uncaught] FileNotFoundError: [Errno 2] No such file or directory: './experiments_distribution/mnist'
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 87, in <module>
+[uncaught]     raise ValueError(
+[uncaught] ValueError: --m_list must contain exactly 17 integers (one per honest client)
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 87, in <module>
+[uncaught]     raise ValueError(
+[uncaught] ValueError: --m_list must contain exactly 14 integers (one per honest client)
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 87, in <module>
+[uncaught]     raise ValueError(
+[uncaught] ValueError: --m_list must contain exactly 11 integers (one per honest client)

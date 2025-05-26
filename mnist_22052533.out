@@ -1,0 +1,8 @@
+Namespace(n=20, m=32, test_m=32, f=0, T=100, heterogeneity='dirichlet_mnist', alpha=0.5, attack='NS', agg='nnm_trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=32, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cuda
+{'n': 20, 'm': 32, 'test_m': 32, 'f': 0, 'T': 100, 'heterogeneity': 'dirichlet_mnist', 'alpha': 0.5, 'attack': 'NS', 'agg': 'nnm_trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cuda'), 'seed': 0, 'batch_size': 32, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/NS/dirichlet_mnist/n_20m32f0T100runs5alpha0.5
+Initial dataloading done
+Run  0
+Run  1
+Run  2

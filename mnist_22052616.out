@@ -1,0 +1,177 @@
+Namespace(n=20, m=32, test_m=32, f=0, T=100, heterogeneity='homogeneous', alpha=1, attack='NS', agg='nnm_trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=32, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cpu
+{'n': 20, 'm': 32, 'test_m': 32, 'f': 0, 'T': 100, 'heterogeneity': 'homogeneous', 'alpha': 1, 'attack': 'NS', 'agg': 'nnm_trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cpu'), 'seed': 0, 'batch_size': 32, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/NS/homogeneous/n_20_m_32_f_0_T_100_runs_5_alpha_1
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [294.557852268219, 294.71529960632324, 295.46036195755005, 294.44654273986816, 295.7977628707886]
+results [[[62.5  ]
+  [87.5  ]
+  [84.375]
+  [87.5  ]
+  [84.375]
+  [87.5  ]]
+
+ [[50.   ]
+  [90.625]
+  [90.625]
+  [90.625]
+  [90.625]
+  [93.75 ]]
+
+ [[65.625]
+  [75.   ]
+  [78.125]
+  [81.25 ]
+  [81.25 ]
+  [81.25 ]]
+
+ [[56.25 ]
+  [81.25 ]
+  [84.375]
+  [84.375]
+  [84.375]
+  [84.375]]
+
+ [[62.5  ]
+  [90.625]
+  [93.75 ]
+  [93.75 ]
+  [93.75 ]
+  [90.625]]]
+Average accuracies for last run  [62.5   90.625 93.75  93.75  93.75  90.625]
+f1 score for last run  [[0.99999995]
+ [0.99999995]
+ [0.99999995]
+ [0.99999995]
+ [0.99999995]
+ [0.99999995]]
+Average accuracies  [59.375 85.    86.25  87.5   86.875 87.5  ]
+F1 score [0.99999997 0.99999997 0.99999997 0.99999998 0.99999998 0.99999998]
+Namespace(n=20, m=32, test_m=32, f=3, T=100, heterogeneity='homogeneous', alpha=1, attack='NS', agg='nnm_trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=32, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cpu
+{'n': 20, 'm': 32, 'test_m': 32, 'f': 3, 'T': 100, 'heterogeneity': 'homogeneous', 'alpha': 1, 'attack': 'NS', 'agg': 'nnm_trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cpu'), 'seed': 0, 'batch_size': 32, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/NS/homogeneous/n_20_m_32_f_3_T_100_runs_5_alpha_1
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [323.8091742992401, 323.7179820537567, 322.8999648094177, 323.9017581939697, 323.50419902801514]
+results [[[62.5  ]
+  [84.375]
+  [84.375]
+  [87.5  ]
+  [84.375]
+  [81.25 ]]
+
+ [[50.   ]
+  [87.5  ]
+  [90.625]
+  [90.625]
+  [90.625]
+  [93.75 ]]
+
+ [[65.625]
+  [75.   ]
+  [81.25 ]
+  [78.125]
+  [78.125]
+  [75.   ]]
+
+ [[53.125]
+  [78.125]
+  [78.125]
+  [84.375]
+  [78.125]
+  [84.375]]
+
+ [[62.5  ]
+  [87.5  ]
+  [90.625]
+  [90.625]
+  [90.625]
+  [90.625]]]
+Average accuracies for last run  [62.5   87.5   90.625 90.625 90.625 90.625]
+f1 score for last run  [[0.99999995]
+ [0.99999995]
+ [0.99999995]
+ [0.99999995]
+ [0.99999995]
+ [0.99999995]]
+Average accuracies  [58.75  82.5   85.    86.25  84.375 85.   ]
+F1 score [0.99999997 0.99999997 0.99999997 0.99999997 0.99999997 0.99999998]
+Namespace(n=20, m=32, test_m=32, f=6, T=100, heterogeneity='homogeneous', alpha=1, attack='NS', agg='nnm_trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=32, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cpu
+{'n': 20, 'm': 32, 'test_m': 32, 'f': 6, 'T': 100, 'heterogeneity': 'homogeneous', 'alpha': 1, 'attack': 'NS', 'agg': 'nnm_trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cpu'), 'seed': 0, 'batch_size': 32, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/NS/homogeneous/n_20_m_32_f_6_T_100_runs_5_alpha_1
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3
+Run  4
+runtime [420.8624002933502, 418.7215905189514, 419.46657609939575, 417.8382167816162, 417.73117995262146]
+results [[[62.5  ]
+  [81.25 ]
+  [81.25 ]
+  [84.375]
+  [81.25 ]
+  [87.5  ]]
+
+ [[50.   ]
+  [78.125]
+  [81.25 ]
+  [84.375]
+  [90.625]
+  [93.75 ]]
+
+ [[65.625]
+  [75.   ]
+  [75.   ]
+  [75.   ]
+  [75.   ]
+  [78.125]]
+
+ [[56.25 ]
+  [81.25 ]
+  [81.25 ]
+  [81.25 ]
+  [84.375]
+  [75.   ]]
+
+ [[62.5  ]
+  [84.375]
+  [87.5  ]
+  [87.5  ]
+  [90.625]
+  [93.75 ]]]
+Average accuracies for last run  [62.5   84.375 87.5   87.5   90.625 93.75 ]
+f1 score for last run  [[0.99999995]
+ [0.99999995]
+ [0.99999995]
+ [0.99999995]
+ [0.99999995]
+ [0.99999995]]
+Average accuracies  [59.375 80.    81.25  82.5   84.375 85.625]
+F1 score [0.99999997 0.99999997 0.99999997 0.99999997 0.99999997 0.99999998]
+Namespace(n=20, m=32, test_m=32, f=9, T=100, heterogeneity='homogeneous', alpha=1, attack='NS', agg='nnm_trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=32, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cpu
+{'n': 20, 'm': 32, 'test_m': 32, 'f': 9, 'T': 100, 'heterogeneity': 'homogeneous', 'alpha': 1, 'attack': 'NS', 'agg': 'nnm_trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cpu'), 'seed': 0, 'batch_size': 32, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/NS/homogeneous/n_20_m_32_f_9_T_100_runs_5_alpha_1
+Initial dataloading done
+Run  0
+Namespace(n=20, m=64, test_m=64, f=0, T=100, heterogeneity='homogeneous', alpha=1, attack='NS', agg='nnm_trmean', nb_run=5, dataset='mnist', model='cnn', lr=0.05, batch_size=64, nb_main_client=1, nb_classes=10, algo='IPGD', eval_every=1)
+device: cpu
+{'n': 20, 'm': 64, 'test_m': 64, 'f': 0, 'T': 100, 'heterogeneity': 'homogeneous', 'alpha': 1, 'attack': 'NS', 'agg': 'nnm_trmean', 'nb_run': 5, 'dataset': 'mnist', 'model': 'cnn', 'lr': 0.05, 'gamma': 0.2, 'nb_classes': 10, 'optim': 'gd', 'device': device(type='cpu'), 'seed': 0, 'batch_size': 64, 'nb_main_client': 1, 'eval_every': 1, 'algo': 'IPGD'}
+Created new directory  ./experiments/mnist/NS/homogeneous/n_20_m_64_f_0_T_100_runs_5_alpha_1
+Initial dataloading done
+Run  0
+Run  1
+Run  2
+Run  3

@@ -1,0 +1,80 @@
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:00<00:03,  5.05it/s] 10%|█         | 2/20 [00:00<00:02,  6.05it/s] 20%|██        | 4/20 [00:00<00:01,  8.11it/s] 30%|███       | 6/20 [00:00<00:01,  9.01it/s] 35%|███▌      | 7/20 [00:00<00:01,  8.51it/s] 45%|████▌     | 9/20 [00:01<00:01,  8.99it/s] 55%|█████▌    | 11/20 [00:01<00:00,  9.36it/s] 65%|██████▌   | 13/20 [00:01<00:00,  9.68it/s] 70%|███████   | 14/20 [00:01<00:00,  9.13it/s] 80%|████████  | 16/20 [00:01<00:00,  9.62it/s] 85%|████████▌ | 17/20 [00:01<00:00,  9.06it/s] 95%|█████████▌| 19/20 [00:02<00:00,  9.16it/s]100%|██████████| 20/20 [00:02<00:00,  8.70it/s]100%|██████████| 20/20 [00:02<00:00,  8.79it/s]
+  0%|          | 0/20 [00:00<?, ?it/s]  0%|          | 0/20 [00:00<?, ?it/s]
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 200, in <module>
+[uncaught]     dataloaders =  dataloading_func(config, m_list, config["test_m"], batch_size = config["batch_size"], alpha = config["alpha"], seed = seeds[run], save_folder = save_folder) 
+[uncaught]                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/src/dataloaders_dist.py", line 318, in dirichlet_mnist_train_test
+[uncaught]     idx = np.random.choice(len(dataset), m+test_m, replace=False,  p=selection_p)
+[uncaught]                                          ~^~~~~~~
+[uncaught] TypeError: can only concatenate list (not "int") to list
+  0%|          | 0/17 [00:00<?, ?it/s]  6%|▌         | 1/17 [00:00<00:02,  6.76it/s] 12%|█▏        | 2/17 [00:00<00:02,  7.00it/s] 24%|██▎       | 4/17 [00:00<00:01,  8.76it/s] 35%|███▌      | 6/17 [00:00<00:01,  9.46it/s] 41%|████      | 7/17 [00:00<00:01,  8.72it/s] 53%|█████▎    | 9/17 [00:01<00:00,  9.08it/s] 65%|██████▍   | 11/17 [00:01<00:00,  9.48it/s] 76%|███████▋  | 13/17 [00:01<00:00,  9.78it/s] 82%|████████▏ | 14/17 [00:01<00:00,  9.17it/s] 94%|█████████▍| 16/17 [00:01<00:00,  9.60it/s]100%|██████████| 17/17 [00:01<00:00,  8.89it/s]100%|██████████| 17/17 [00:01<00:00,  9.03it/s]
+  0%|          | 0/17 [00:00<?, ?it/s]  0%|          | 0/17 [00:00<?, ?it/s]
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 200, in <module>
+[uncaught]     dataloaders =  dataloading_func(config, m_list, config["test_m"], batch_size = config["batch_size"], alpha = config["alpha"], seed = seeds[run], save_folder = save_folder) 
+[uncaught]                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/src/dataloaders_dist.py", line 318, in dirichlet_mnist_train_test
+[uncaught]     idx = np.random.choice(len(dataset), m+test_m, replace=False,  p=selection_p)
+[uncaught]                                          ~^~~~~~~
+[uncaught] TypeError: can only concatenate list (not "int") to list
+  0%|          | 0/14 [00:00<?, ?it/s]  7%|▋         | 1/14 [00:00<00:01,  6.74it/s] 14%|█▍        | 2/14 [00:00<00:01,  7.00it/s] 29%|██▊       | 4/14 [00:00<00:01,  8.82it/s] 43%|████▎     | 6/14 [00:00<00:00,  9.56it/s] 50%|█████     | 7/14 [00:00<00:00,  8.89it/s] 64%|██████▍   | 9/14 [00:01<00:00,  9.22it/s] 79%|███████▊  | 11/14 [00:01<00:00,  9.59it/s] 93%|█████████▎| 13/14 [00:01<00:00,  9.85it/s]100%|██████████| 14/14 [00:01<00:00,  9.15it/s]100%|██████████| 14/14 [00:01<00:00,  9.10it/s]
+  0%|          | 0/14 [00:00<?, ?it/s]  0%|          | 0/14 [00:00<?, ?it/s]
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 200, in <module>
+[uncaught]     dataloaders =  dataloading_func(config, m_list, config["test_m"], batch_size = config["batch_size"], alpha = config["alpha"], seed = seeds[run], save_folder = save_folder) 
+[uncaught]                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/src/dataloaders_dist.py", line 318, in dirichlet_mnist_train_test
+[uncaught]     idx = np.random.choice(len(dataset), m+test_m, replace=False,  p=selection_p)
+[uncaught]                                          ~^~~~~~~
+[uncaught] TypeError: can only concatenate list (not "int") to list
+  0%|          | 0/11 [00:00<?, ?it/s]  9%|▉         | 1/11 [00:00<00:01,  6.82it/s] 18%|█▊        | 2/11 [00:00<00:01,  6.95it/s] 36%|███▋      | 4/11 [00:00<00:00,  8.69it/s] 55%|█████▍    | 6/11 [00:00<00:00,  9.37it/s] 64%|██████▎   | 7/11 [00:00<00:00,  8.63it/s] 82%|████████▏ | 9/11 [00:01<00:00,  8.99it/s]100%|██████████| 11/11 [00:01<00:00,  9.41it/s]100%|██████████| 11/11 [00:01<00:00,  8.96it/s]
+  0%|          | 0/11 [00:00<?, ?it/s]  0%|          | 0/11 [00:00<?, ?it/s]
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 200, in <module>
+[uncaught]     dataloaders =  dataloading_func(config, m_list, config["test_m"], batch_size = config["batch_size"], alpha = config["alpha"], seed = seeds[run], save_folder = save_folder) 
+[uncaught]                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/src/dataloaders_dist.py", line 318, in dirichlet_mnist_train_test
+[uncaught]     idx = np.random.choice(len(dataset), m+test_m, replace=False,  p=selection_p)
+[uncaught]                                          ~^~~~~~~
+[uncaught] TypeError: can only concatenate list (not "int") to list
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:00<00:02,  6.78it/s] 10%|█         | 2/20 [00:00<00:02,  7.07it/s] 20%|██        | 4/20 [00:00<00:01,  8.85it/s] 30%|███       | 6/20 [00:00<00:01,  9.56it/s] 35%|███▌      | 7/20 [00:00<00:01,  8.75it/s] 45%|████▌     | 9/20 [00:01<00:01,  9.08it/s] 55%|█████▌    | 11/20 [00:01<00:00,  9.48it/s] 65%|██████▌   | 13/20 [00:01<00:00,  9.79it/s] 70%|███████   | 14/20 [00:01<00:00,  9.05it/s] 80%|████████  | 16/20 [00:01<00:00,  9.40it/s] 85%|████████▌ | 17/20 [00:01<00:00,  8.85it/s] 95%|█████████▌| 19/20 [00:02<00:00,  8.91it/s]100%|██████████| 20/20 [00:02<00:00,  8.49it/s]100%|██████████| 20/20 [00:02<00:00,  8.90it/s]
+  0%|          | 0/20 [00:00<?, ?it/s]  0%|          | 0/20 [00:00<?, ?it/s]
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 200, in <module>
+[uncaught]     dataloaders =  dataloading_func(config, m_list, config["test_m"], batch_size = config["batch_size"], alpha = config["alpha"], seed = seeds[run], save_folder = save_folder) 
+[uncaught]                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/src/dataloaders_dist.py", line 318, in dirichlet_mnist_train_test
+[uncaught]     idx = np.random.choice(len(dataset), m+test_m, replace=False,  p=selection_p)
+[uncaught]                                          ~^~~~~~~
+[uncaught] TypeError: can only concatenate list (not "int") to list
+  0%|          | 0/17 [00:00<?, ?it/s]  6%|▌         | 1/17 [00:00<00:02,  6.66it/s] 12%|█▏        | 2/17 [00:00<00:02,  6.99it/s] 24%|██▎       | 4/17 [00:00<00:01,  8.79it/s] 35%|███▌      | 6/17 [00:00<00:01,  9.55it/s] 41%|████      | 7/17 [00:00<00:01,  8.89it/s] 53%|█████▎    | 9/17 [00:01<00:00,  9.22it/s] 65%|██████▍   | 11/17 [00:01<00:00,  9.63it/s] 76%|███████▋  | 13/17 [00:01<00:00,  9.91it/s] 82%|████████▏ | 14/17 [00:01<00:00,  9.19it/s] 94%|█████████▍| 16/17 [00:01<00:00,  9.55it/s]100%|██████████| 17/17 [00:01<00:00,  8.89it/s]100%|██████████| 17/17 [00:01<00:00,  9.08it/s]
+  0%|          | 0/17 [00:00<?, ?it/s]  0%|          | 0/17 [00:00<?, ?it/s]
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 200, in <module>
+[uncaught]     dataloaders =  dataloading_func(config, m_list, config["test_m"], batch_size = config["batch_size"], alpha = config["alpha"], seed = seeds[run], save_folder = save_folder) 
+[uncaught]                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/src/dataloaders_dist.py", line 318, in dirichlet_mnist_train_test
+[uncaught]     idx = np.random.choice(len(dataset), m+test_m, replace=False,  p=selection_p)
+[uncaught]                                          ~^~~~~~~
+[uncaught] TypeError: can only concatenate list (not "int") to list
+  0%|          | 0/14 [00:00<?, ?it/s]  7%|▋         | 1/14 [00:00<00:01,  6.75it/s] 14%|█▍        | 2/14 [00:00<00:01,  7.05it/s] 29%|██▊       | 4/14 [00:00<00:01,  8.85it/s] 43%|████▎     | 6/14 [00:00<00:00,  9.59it/s] 50%|█████     | 7/14 [00:00<00:00,  8.88it/s] 64%|██████▍   | 9/14 [00:01<00:00,  9.25it/s] 79%|███████▊  | 11/14 [00:01<00:00,  9.66it/s] 93%|█████████▎| 13/14 [00:01<00:00,  9.97it/s]100%|██████████| 14/14 [00:01<00:00,  9.28it/s]100%|██████████| 14/14 [00:01<00:00,  9.18it/s]
+  0%|          | 0/14 [00:00<?, ?it/s]  0%|          | 0/14 [00:00<?, ?it/s]
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 200, in <module>
+[uncaught]     dataloaders =  dataloading_func(config, m_list, config["test_m"], batch_size = config["batch_size"], alpha = config["alpha"], seed = seeds[run], save_folder = save_folder) 
+[uncaught]                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/src/dataloaders_dist.py", line 318, in dirichlet_mnist_train_test
+[uncaught]     idx = np.random.choice(len(dataset), m+test_m, replace=False,  p=selection_p)
+[uncaught]                                          ~^~~~~~~
+[uncaught] TypeError: can only concatenate list (not "int") to list
+  0%|          | 0/11 [00:00<?, ?it/s]  9%|▉         | 1/11 [00:00<00:01,  6.76it/s] 18%|█▊        | 2/11 [00:00<00:01,  7.11it/s] 36%|███▋      | 4/11 [00:00<00:00,  8.92it/s] 55%|█████▍    | 6/11 [00:00<00:00,  9.66it/s] 64%|██████▎   | 7/11 [00:00<00:00,  8.95it/s] 82%|████████▏ | 9/11 [00:00<00:00,  9.34it/s]100%|██████████| 11/11 [00:01<00:00,  9.73it/s]100%|██████████| 11/11 [00:01<00:00,  9.24it/s]
+  0%|          | 0/11 [00:00<?, ?it/s]  0%|          | 0/11 [00:00<?, ?it/s]
+[uncaught] Traceback (most recent call last):
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/main_dist.py", line 200, in <module>
+[uncaught]     dataloaders =  dataloading_func(config, m_list, config["test_m"], batch_size = config["batch_size"], alpha = config["alpha"], seed = seeds[run], save_folder = save_folder) 
+[uncaught]                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[uncaught]   File "/storage/homefs/bj20p045/DDLS/Fine-Tuning-Personalization-in-Federated-Learning-to-Mitigate-Adversarial-Clients/src/dataloaders_dist.py", line 318, in dirichlet_mnist_train_test
+[uncaught]     idx = np.random.choice(len(dataset), m+test_m, replace=False,  p=selection_p)
+[uncaught]                                          ~^~~~~~~
+[uncaught] TypeError: can only concatenate list (not "int") to list
